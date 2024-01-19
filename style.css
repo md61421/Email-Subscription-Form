@@ -63,7 +63,7 @@ span {
   display: block;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 480px) {
 
   .hero h3 {
     font-size: 1.5rem;
