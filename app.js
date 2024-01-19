@@ -8,7 +8,7 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbwSXNy9Y0OTE010b13TwP
       .then(response => {
           msg.innerHTML = "Thank You For Subscribing!";
           setTimeout(() => {
-            msg.innerHTML = "Thank You For Subscribing!";
+            msg.innerHTML = "";
         }, 5000)
         form.reset()
       })
